@@ -1,0 +1,10 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/Computer_Organization/REGS_ALU/REGS_ALU.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sim_1/new/TEST.v,1717400974,verilog,,,,TEST,,,,,,,,
+D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/Multi_ALU.v,1717329231,verilog,,D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/REGS.v,,ALU;Input;Muti_ALU;Output,,,,,,,,
+D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/REGS.v,1717401122,verilog,,D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/REGS_ALU.v,,REGS,,,,,,,,
+D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/REGS_ALU.v,1717400659,verilog,,D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/nixie_tube.v,,REGS_ALU,,,,,,,,
+D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/nixie_tube.v,1717394578,verilog,,D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sim_1/new/TEST.v,,Display;nixie_tube,,,,,,,,

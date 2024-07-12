@@ -1,0 +1,8 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/Computer_Organization/Muti_ALU/Muti_ALU.sim/sim_1/behav/xsim/glbl.v,1544155482,verilog,,,,glbl,,,,,,,,
+D:/Computer_Organization/Muti_ALU/Muti_ALU.srcs/sim_1/new/ALU_test.v,1714997480,verilog,,,,ALU_test,,,,,,,,
+D:/Computer_Organization/Muti_ALU/Muti_ALU.srcs/sources_1/new/LED_display.v,1714997429,verilog,,D:/Computer_Organization/Muti_ALU/Muti_ALU.srcs/sources_1/new/Muti_ALU.v,,LED_display,,,,,,,,
+D:/Computer_Organization/Muti_ALU/Muti_ALU.srcs/sources_1/new/Muti_ALU.v,1714997768,verilog,,D:/Computer_Organization/Muti_ALU/Muti_ALU.srcs/sim_1/new/ALU_test.v,,ALU;InputA;InputB;Muti_ALU;Output,,,,,,,,

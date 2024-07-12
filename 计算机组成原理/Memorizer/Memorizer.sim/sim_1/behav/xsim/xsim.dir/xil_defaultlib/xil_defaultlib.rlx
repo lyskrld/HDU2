@@ -1,0 +1,8 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/FPGA_project/Memorizer/Memorizer.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+D:/FPGA_project/Memorizer/Memorizer.srcs/sim_1/new/test.v,1715845482,verilog,,,,test,,,,,,,,
+D:/FPGA_project/Memorizer/Memorizer.srcs/sources_1/ip/RAM_B/sim/RAM_B.v,1715159372,verilog,,D:/FPGA_project/Memorizer/Memorizer.srcs/sources_1/new/Memory.v,,RAM_B,,,,,,,,
+D:/FPGA_project/Memorizer/Memorizer.srcs/sources_1/new/Memory.v,1715845999,verilog,,D:/FPGA_project/Memorizer/Memorizer.srcs/sim_1/new/test.v,,RAM,,,,,,,,

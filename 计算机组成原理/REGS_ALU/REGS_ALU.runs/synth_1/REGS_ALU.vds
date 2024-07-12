@@ -1,0 +1,750 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Jun  3 15:57:52 2024
+# Process ID: 141352
+# Current directory: D:/Computer_Organization/REGS_ALU/REGS_ALU.runs/synth_1
+# Command line: vivado.exe -log REGS_ALU.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source REGS_ALU.tcl
+# Log file: D:/Computer_Organization/REGS_ALU/REGS_ALU.runs/synth_1/REGS_ALU.vds
+# Journal file: D:/Computer_Organization/REGS_ALU/REGS_ALU.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source REGS_ALU.tcl -notrace
+Command: synth_design -top REGS_ALU -part xc7a100tfgg484-2L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 154524 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 362.824 ; gain = 101.430
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'REGS_ALU' [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/REGS_ALU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'REGS' [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/REGS.v:23]
+WARNING: [Synth 8-5788] Register REG_Files_reg[5] in module REGS is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/REGS.v:37]
+WARNING: [Synth 8-5788] Register REG_Files_reg[6] in module REGS is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/REGS.v:37]
+WARNING: [Synth 8-5788] Register REG_Files_reg[7] in module REGS is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/REGS.v:37]
+WARNING: [Synth 8-5788] Register REG_Files_reg[8] in module REGS is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/REGS.v:37]
+WARNING: [Synth 8-5788] Register REG_Files_reg[9] in module REGS is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/REGS.v:37]
+WARNING: [Synth 8-5788] Register REG_Files_reg[10] in module REGS is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/REGS.v:37]
+WARNING: [Synth 8-5788] Register REG_Files_reg[11] in module REGS is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/REGS.v:37]
+WARNING: [Synth 8-5788] Register REG_Files_reg[12] in module REGS is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/REGS.v:37]
+WARNING: [Synth 8-5788] Register REG_Files_reg[13] in module REGS is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/REGS.v:37]
+WARNING: [Synth 8-5788] Register REG_Files_reg[14] in module REGS is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/REGS.v:37]
+WARNING: [Synth 8-5788] Register REG_Files_reg[15] in module REGS is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/REGS.v:37]
+WARNING: [Synth 8-5788] Register REG_Files_reg[16] in module REGS is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/REGS.v:37]
+WARNING: [Synth 8-5788] Register REG_Files_reg[17] in module REGS is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/REGS.v:37]
+WARNING: [Synth 8-5788] Register REG_Files_reg[18] in module REGS is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/REGS.v:37]
+WARNING: [Synth 8-5788] Register REG_Files_reg[19] in module REGS is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/REGS.v:37]
+WARNING: [Synth 8-5788] Register REG_Files_reg[20] in module REGS is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/REGS.v:37]
+WARNING: [Synth 8-5788] Register REG_Files_reg[21] in module REGS is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/REGS.v:37]
+WARNING: [Synth 8-5788] Register REG_Files_reg[22] in module REGS is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/REGS.v:37]
+WARNING: [Synth 8-5788] Register REG_Files_reg[23] in module REGS is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/REGS.v:37]
+WARNING: [Synth 8-5788] Register REG_Files_reg[24] in module REGS is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/REGS.v:37]
+WARNING: [Synth 8-5788] Register REG_Files_reg[25] in module REGS is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/REGS.v:37]
+WARNING: [Synth 8-5788] Register REG_Files_reg[26] in module REGS is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/REGS.v:37]
+WARNING: [Synth 8-5788] Register REG_Files_reg[27] in module REGS is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/REGS.v:37]
+WARNING: [Synth 8-5788] Register REG_Files_reg[28] in module REGS is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/REGS.v:37]
+WARNING: [Synth 8-5788] Register REG_Files_reg[29] in module REGS is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/REGS.v:37]
+WARNING: [Synth 8-5788] Register REG_Files_reg[30] in module REGS is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/REGS.v:37]
+WARNING: [Synth 8-5788] Register REG_Files_reg[31] in module REGS is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/REGS.v:37]
+INFO: [Synth 8-6155] done synthesizing module 'REGS' (1#1) [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/REGS.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Muti_ALU' [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/Multi_ALU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Input' [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/Multi_ALU.v:40]
+INFO: [Synth 8-6155] done synthesizing module 'Input' (2#1) [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/Multi_ALU.v:40]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/Multi_ALU.v:53]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/Multi_ALU.v:68]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (3#1) [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/Multi_ALU.v:53]
+INFO: [Synth 8-6157] synthesizing module 'Output' [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/Multi_ALU.v:85]
+INFO: [Synth 8-6155] done synthesizing module 'Output' (4#1) [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/Multi_ALU.v:85]
+INFO: [Synth 8-6155] done synthesizing module 'Muti_ALU' (5#1) [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/Multi_ALU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'nixie_tube' [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/nixie_tube.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/nixie_tube.v:38]
+INFO: [Synth 8-6157] synthesizing module 'Display' [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/nixie_tube.v:54]
+INFO: [Synth 8-226] default block is never used [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/nixie_tube.v:79]
+INFO: [Synth 8-6155] done synthesizing module 'Display' (6#1) [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/nixie_tube.v:54]
+INFO: [Synth 8-6155] done synthesizing module 'nixie_tube' (7#1) [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/nixie_tube.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'REGS_ALU' (8#1) [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/REGS_ALU.v:1]
+WARNING: [Synth 8-3917] design REGS_ALU has port enable driven by constant 1
+WARNING: [Synth 8-3331] design nixie_tube has unconnected port enable
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 418.824 ; gain = 157.430
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 418.824 ; gain = 157.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 418.824 ; gain = 157.430
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tfgg484-2L
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc]
+WARNING: [Vivado 12-584] No ports matched 'data[31]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:126]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:126]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data[30]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:127]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:127]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data[29]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:128]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:128]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data[28]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:129]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:129]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data[27]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:130]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:130]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data[26]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:131]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:131]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data[25]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:132]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:132]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data[24]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:133]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:133]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data[23]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:134]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:134]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data[22]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:135]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:135]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data[21]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:136]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:136]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data[20]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:137]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:137]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data[19]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:138]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:138]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data[18]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:139]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:139]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data[17]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:140]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:140]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data[16]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:141]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:141]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data[15]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:142]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:142]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data[14]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:143]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:143]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data[13]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:144]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:144]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data[12]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:145]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:145]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data[11]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:146]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:146]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data[10]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:147]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:147]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data[9]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:148]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:148]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data[8]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:149]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:149]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data[7]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:150]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:150]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data[6]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:151]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:151]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data[5]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:152]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:152]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data[4]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:153]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:153]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data[3]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:154]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:154]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data[2]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:155]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:155]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data[1]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:156]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:156]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'data[0]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:157]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:157]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'F[31]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:158]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:158]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'F[30]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:159]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:159]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'F[29]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:160]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:160]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'F[28]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:161]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:161]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'F[27]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:162]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:162]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'F[26]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:163]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:163]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'F[25]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:164]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:164]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'F[24]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:165]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:165]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'F[23]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:166]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:166]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'F[22]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:167]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:167]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'F[21]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:168]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:168]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'F[20]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:169]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:169]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'F[19]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:170]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:170]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'F[18]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:171]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:171]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'F[17]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:172]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:172]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'F[16]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:173]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:173]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'F[15]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:174]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:174]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'F[14]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:175]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:175]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'F[13]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:176]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:176]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'F[12]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:177]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:177]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'F[11]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:178]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:178]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'F[10]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:179]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:179]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'F[9]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:180]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:180]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'F[8]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:181]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:181]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'F[7]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:182]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:182]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'F[6]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:183]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:183]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'F[5]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:184]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:184]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'F[4]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:185]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:185]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'F[3]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:186]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:186]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'F[2]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:187]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:187]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'F[1]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:188]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:188]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'F[0]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:189]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:189]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'R_Data_A[31]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:190]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:190]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'R_Data_A[30]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:191]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:191]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'R_Data_A[29]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:192]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:192]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'R_Data_A[28]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:193]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:193]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'R_Data_A[27]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:194]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:194]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'R_Data_A[26]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:195]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:195]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'R_Data_A[25]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:196]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:196]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'R_Data_A[24]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:197]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:197]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'R_Data_A[23]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:198]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:198]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'R_Data_A[22]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:199]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:199]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'R_Data_A[21]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:200]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:200]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'R_Data_A[20]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:201]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:201]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'R_Data_A[19]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:202]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:202]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'R_Data_A[18]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:203]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:203]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'R_Data_A[17]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:204]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:204]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'R_Data_A[16]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:205]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:205]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'R_Data_A[15]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:206]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:206]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'R_Data_A[14]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:207]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:207]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'R_Data_A[13]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:208]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:208]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'R_Data_A[12]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:209]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:209]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'R_Data_A[11]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:210]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:210]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'R_Data_A[10]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:211]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:211]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'R_Data_A[9]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:212]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:212]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'R_Data_A[8]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:213]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:213]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'R_Data_A[7]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:214]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:214]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'R_Data_A[6]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:215]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:215]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'R_Data_A[5]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:216]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:216]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'R_Data_A[4]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:217]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:217]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'R_Data_A[3]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:218]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:218]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'R_Data_A[2]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:219]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:219]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'R_Data_A[1]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:220]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:220]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'R_Data_A[0]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:221]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:221]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'R_Data_B[31]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:222]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:222]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'R_Data_B[30]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:223]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:223]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'R_Data_B[29]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:224]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:224]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'R_Data_B[28]'. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:225]
+INFO: [Common 17-14] Message 'Vivado 12-584' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:225]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc:225]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/constrs_1/new/constraint1.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/REGS_ALU_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/REGS_ALU_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 769.199 ; gain = 0.000
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 769.199 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 769.199 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 769.199 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 769.199 ; gain = 507.805
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tfgg484-2L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 769.199 ; gain = 507.805
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 769.199 ; gain = 507.805
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "REG_Files_reg[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REG_Files_reg[1]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REG_Files_reg[2]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REG_Files_reg[3]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REG_Files_reg[4]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REG_Files_reg[5]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REG_Files_reg[6]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REG_Files_reg[7]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REG_Files_reg[8]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REG_Files_reg[9]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REG_Files_reg[10]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REG_Files_reg[11]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REG_Files_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REG_Files_reg[13]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REG_Files_reg[14]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REG_Files_reg[15]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REG_Files_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REG_Files_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REG_Files_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REG_Files_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REG_Files_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REG_Files_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REG_Files_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REG_Files_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REG_Files_reg[24]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REG_Files_reg[25]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REG_Files_reg[26]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REG_Files_reg[27]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REG_Files_reg[28]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REG_Files_reg[29]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REG_Files_reg[30]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "REG_Files_reg[31]" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-327] inferring latch for variable 'F_reg' [D:/Computer_Organization/REGS_ALU/REGS_ALU.srcs/sources_1/new/Multi_ALU.v:69]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 769.199 ; gain = 507.805
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 1     
+	   2 Input     33 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 1     
+	   3 Input      1 Bit         XORs := 2     
++---Registers : 
+	               32 Bit    Registers := 35    
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 32    
+	  11 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module REGS 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 32    
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 32    
+Module Input 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module ALU 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 1     
+	   2 Input     33 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 1     
+	   3 Input      1 Bit         XORs := 2     
++---Muxes : 
+	  11 Input      1 Bit        Muxes := 3     
+Module Output 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+Module Display 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                3 Bit    Registers := 1     
+Module nixie_tube 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3917] design REGS_ALU has port enable driven by constant 1
+INFO: [Synth 8-3886] merging instance 'F2/OUT/F_reg[32]' (FDC) to 'F2/OUT/FR_reg[3]'
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 769.199 ; gain = 507.805
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 769.199 ; gain = 507.805
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 769.199 ; gain = 507.805
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\F1/REG_Files_reg[0][25] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\F1/REG_Files_reg[0][29] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\F1/REG_Files_reg[0][17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\F1/REG_Files_reg[0][21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\F1/REG_Files_reg[0][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\F1/REG_Files_reg[0][13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\F1/REG_Files_reg[0][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\F1/REG_Files_reg[0][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\F1/REG_Files_reg[0][24] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\F1/REG_Files_reg[0][28] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\F1/REG_Files_reg[0][16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\F1/REG_Files_reg[0][20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\F1/REG_Files_reg[0][8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\F1/REG_Files_reg[0][12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\F1/REG_Files_reg[0][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\F1/REG_Files_reg[0][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\F1/REG_Files_reg[0][26] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\F1/REG_Files_reg[0][30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\F1/REG_Files_reg[0][18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\F1/REG_Files_reg[0][22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\F1/REG_Files_reg[0][10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\F1/REG_Files_reg[0][14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\F1/REG_Files_reg[0][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\F1/REG_Files_reg[0][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\F1/REG_Files_reg[0][27] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\F1/REG_Files_reg[0][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\F1/REG_Files_reg[0][19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\F1/REG_Files_reg[0][23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\F1/REG_Files_reg[0][11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\F1/REG_Files_reg[0][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\F1/REG_Files_reg[0][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\F1/REG_Files_reg[0][7] )
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 781.398 ; gain = 520.004
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:25 . Memory (MB): peak = 781.398 ; gain = 520.004
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:25 . Memory (MB): peak = 781.398 ; gain = 520.004
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:25 . Memory (MB): peak = 781.398 ; gain = 520.004
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:25 . Memory (MB): peak = 781.398 ; gain = 520.004
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:25 . Memory (MB): peak = 781.398 ; gain = 520.004
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:25 . Memory (MB): peak = 781.398 ; gain = 520.004
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     5|
+|2     |CARRY4 |    30|
+|3     |LUT1   |     3|
+|4     |LUT2   |    68|
+|5     |LUT3   |    41|
+|6     |LUT4   |   124|
+|7     |LUT5   |   182|
+|8     |LUT6   |   785|
+|9     |MUXF7  |   319|
+|10    |MUXF8  |   112|
+|11    |FDCE   |   194|
+|12    |FDPE   |    33|
+|13    |FDRE   |   882|
+|14    |LD     |    32|
+|15    |IBUF   |    27|
+|16    |OBUF   |    16|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+-----------+------+
+|      |Instance |Module     |Cells |
++------+---------+-----------+------+
+|1     |top      |           |  2853|
+|2     |  F1     |REGS       |  2076|
+|3     |  F2     |Muti_ALU   |   699|
+|4     |    ALU1 |ALU        |    88|
+|5     |    IA   |Input      |   275|
+|6     |    IB   |Input_0    |   301|
+|7     |    OUT  |Output     |    35|
+|8     |  F3     |nixie_tube |    29|
+|9     |    U1   |Display    |    29|
++------+---------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:25 . Memory (MB): peak = 781.398 ; gain = 520.004
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:21 . Memory (MB): peak = 781.398 ; gain = 169.629
+Synthesis Optimization Complete : Time (s): cpu = 00:00:19 ; elapsed = 00:00:25 . Memory (MB): peak = 781.398 ; gain = 520.004
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 493 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 784.418 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 32 instances were transformed.
+  LD => LDCE: 32 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+97 Infos, 131 Warnings, 100 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 784.418 ; gain = 530.820
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 784.418 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/Computer_Organization/REGS_ALU/REGS_ALU.runs/synth_1/REGS_ALU.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file REGS_ALU_utilization_synth.rpt -pb REGS_ALU_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Jun  3 15:58:22 2024...

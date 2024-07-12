@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Test_7_Fetch_inst.srcs/sources_1/ip/Rom_A/sim/Rom_A.v" \
+"../../../../Test_7_Fetch_inst.srcs/sources_1/new/Fetch_inst_test7.v" \
+"../../../../Test_7_Fetch_inst.srcs/sources_1/new/PC_test7.v" \
+"../../../../Test_7_Fetch_inst.srcs/sim_1/new/Test7_demo.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
